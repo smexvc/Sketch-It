@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    background: #333;
+}
+
+label {
+    color: #ccc; 
+    margin-right: 10px; 
+}
+
+#brush-size {
+    margin: 0 10px; 
+}
+
+#SHS {
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    background-color: #607d8b; 
+}
+
+#clear-canvas {
+    background-color: #ff5252; 
+}
+
+#download-canvas {
+    background-color: #009688; 
+}
+
+#undo,
+#redo {
+    background-color: #555; 
+}
+
+button:hover {
+    opacity: 0.9; 
+}
+
+#paint-canvas {
+    display: block;
+    background: white; 
+    touch-action: none; 
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}

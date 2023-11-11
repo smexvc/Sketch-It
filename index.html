@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<SHS></SHS>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch It!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sketch It!</h1>
+    </header>
+    <div id="paint-app">
+        <div class="controls">
+            <label for="brush-size">Brush Size:</label>
+            <input type="range" id="brush-size" min="1" max="20" value="5" title="Adjust brush size">
+            <button id="eraser">Eraser</button>
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+            <button id="clear-canvas">Clear</button>
+            <button id="download-canvas">Download</button>
+            <input type="color" id="brush-color" title="Choose brush color">
+        </div>
+        <canvas id="paint-canvas"></canvas>
+    </div>
+    <footer>
+        <p>&copy; Md Sajid Hossain Sad.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
